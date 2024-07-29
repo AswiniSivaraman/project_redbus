@@ -40,7 +40,7 @@ To know more about **selenium**. Click here <https://selenium-python.readthedocs
   `               `To know more about **MySQL**. Click here <https://dev.mysql.com/doc/refman/9.0/en/>
 
 - **Streamlit-Option-Menu:**
-  **
+  
   `                                         `Streamlit-option-menu is a simple Streamlit component that allows users to select a single item from a
 
   `                                         `list of options in a menu.
