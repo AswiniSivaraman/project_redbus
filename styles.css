@@ -1,0 +1,50 @@
+/* styles.css */
+.main .block-container {
+    padding-top: 1.5rem;
+    padding-left: 0rem;  /* Adjust this value to reduce space between sidebar and main content */
+    padding-right: 5rem;  /* Adjust this value to reduce space between sidebar and main content */
+}
+
+
+/* New .container styles */
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid #EE4B2B;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    min-height: 300px;
+}
+
+/* Styles for the scan code and Play Store picture section */
+.scan-playstore {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.scan-playstore div {
+    text-align: center;
+    flex: 1;
+}
+
+.scan-playstore img {
+    max-width: 100%;
+    height: auto;
+    width: 200px; /* Fixed width for all images */
+    height: 200px; /* Fixed height for all images */
+    object-fit: contain; /* Ensure images fit within the specified dimensions */
+}
+
+.scan-playstore .bus-image img {
+    width: 900px; /* Fixed width for the bus image */
+    height: 200px; /* Fixed height for the bus image */
+    object-fit: contain;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 0.5rem;
+}

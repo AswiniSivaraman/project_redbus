@@ -1,0 +1,16 @@
+route_no,state_name,route_name,route_ref
+1,West Bengal Transport Corporation,Kolkata to Digha,https://www.redbus.in/bus-tickets/kolkata-to-digha
+2,West Bengal Transport Corporation,Digha to Kolkata,https://www.redbus.in/bus-tickets/digha-to-kolkata
+3,West Bengal Transport Corporation,Mandarmani to Kolkata,https://www.redbus.in/bus-tickets/mandarmani-to-kolkata
+4,West Bengal Transport Corporation,Kolkata to Mandarmani,https://www.redbus.in/bus-tickets/kolkata-to-mandarmani
+5,West Bengal Transport Corporation,Kolkata to Bakkhali,https://www.redbus.in/bus-tickets/kolkata-to-bakkhali
+6,Bihar State Road Transport Corporation (BSRTC),Patna (Bihar) to Bettiah,https://www.redbus.in/bus-tickets/patna-to-bettiah
+7,Bihar State Road Transport Corporation (BSRTC),Gopalganj (Bihar) to Delhi,https://www.redbus.in/bus-tickets/gopalganj-to-delhi
+8,Bihar State Road Transport Corporation (BSRTC),Patna (Bihar) to Motihari,https://www.redbus.in/bus-tickets/patna-to-motihari
+9,Bihar State Road Transport Corporation (BSRTC),Delhi to Motihari,https://www.redbus.in/bus-tickets/delhi-to-motihari
+10,Bihar State Road Transport Corporation (BSRTC),Bettiah to Patna (Bihar),https://www.redbus.in/bus-tickets/bettiah-to-patna
+11,Bihar State Road Transport Corporation (BSRTC),Motihari to Delhi,https://www.redbus.in/bus-tickets/motihari-to-delhi
+12,Bihar State Road Transport Corporation (BSRTC),Patna (Bihar) to Balmiki Nagar (bihar),https://www.redbus.in/bus-tickets/patna-to-balmiki-nagar-bihar
+13,Bihar State Road Transport Corporation (BSRTC),Balmiki Nagar (bihar) to Patna (Bihar),https://www.redbus.in/bus-tickets/balmiki-nagar-bihar-to-patna
+14,Bihar State Road Transport Corporation (BSRTC),Patna (Bihar) to Kathmandu,https://www.redbus.in/bus-tickets/patna-to-kathmandu
+15,Bihar State Road Transport Corporation (BSRTC),Patna (Bihar) to Katihar,https://www.redbus.in/bus-tickets/patna-to-katihar
