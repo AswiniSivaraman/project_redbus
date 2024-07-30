@@ -1,0 +1,225 @@
+route_no,state_name,route_name,route_ref
+1,Bihar State Road Transport Corporation (BSRTC),Patna (Bihar) to Bettiah,https://www.redbus.in/bus-tickets/patna-to-bettiah
+2,Bihar State Road Transport Corporation (BSRTC),Gopalganj (Bihar) to Delhi,https://www.redbus.in/bus-tickets/gopalganj-to-delhi
+3,Bihar State Road Transport Corporation (BSRTC),Patna (Bihar) to Motihari,https://www.redbus.in/bus-tickets/patna-to-motihari
+4,Bihar State Road Transport Corporation (BSRTC),Delhi to Motihari,https://www.redbus.in/bus-tickets/delhi-to-motihari
+5,Bihar State Road Transport Corporation (BSRTC),Bettiah to Patna (Bihar),https://www.redbus.in/bus-tickets/bettiah-to-patna
+6,Bihar State Road Transport Corporation (BSRTC),Motihari to Delhi,https://www.redbus.in/bus-tickets/motihari-to-delhi
+7,Bihar State Road Transport Corporation (BSRTC),Patna (Bihar) to Balmiki Nagar (bihar),https://www.redbus.in/bus-tickets/patna-to-balmiki-nagar-bihar
+8,Bihar State Road Transport Corporation (BSRTC),Balmiki Nagar (bihar) to Patna (Bihar),https://www.redbus.in/bus-tickets/balmiki-nagar-bihar-to-patna
+10,Bihar State Road Transport Corporation (BSRTC),Patna (Bihar) to Katihar,https://www.redbus.in/bus-tickets/patna-to-katihar
+11,NORTH BENGAL STATE TRANSPORT CORPORATION,Kolkata to Siliguri,https://www.redbus.in/bus-tickets/kolkata-to-siliguri
+12,NORTH BENGAL STATE TRANSPORT CORPORATION,Siliguri to Kolkata,https://www.redbus.in/bus-tickets/siliguri-to-kolkata
+13,NORTH BENGAL STATE TRANSPORT CORPORATION,Siliguri to Darjeeling,https://www.redbus.in/bus-tickets/siliguri-to-darjeeling
+14,NORTH BENGAL STATE TRANSPORT CORPORATION,Kolkata to Raiganj,https://www.redbus.in/bus-tickets/kolkata-to-raiganj
+15,NORTH BENGAL STATE TRANSPORT CORPORATION,Raiganj to Kolkata,https://www.redbus.in/bus-tickets/raiganj-to-kolkata
+16,NORTH BENGAL STATE TRANSPORT CORPORATION,Kolkata to Malda,https://www.redbus.in/bus-tickets/kolkata-to-malda
+17,NORTH BENGAL STATE TRANSPORT CORPORATION,Cooch Behar (West Bengal) to Berhampore (West Bengal),https://www.redbus.in/bus-tickets/cooch-behar-west-bengal-to-berhampore
+18,NORTH BENGAL STATE TRANSPORT CORPORATION,Kolkata to Cooch Behar (West Bengal),https://www.redbus.in/bus-tickets/kolkata-to-cooch-behar-west-bengal
+19,NORTH BENGAL STATE TRANSPORT CORPORATION,Malda to Kolkata,https://www.redbus.in/bus-tickets/malda-to-kolkata
+21,WBTC (CTC),Durgapur (West Bengal) to Kolkata,https://www.redbus.in/bus-tickets/durgapur-to-kolkata
+22,WBTC (CTC),Digha to Barasat (West Bengal),https://www.redbus.in/bus-tickets/digha-to-barasat-west-bengal
+23,WBTC (CTC),Barasat (West Bengal) to Digha,https://www.redbus.in/bus-tickets/barasat-west-bengal-to-digha
+24,WBTC (CTC),Suri to Kolkata,https://www.redbus.in/bus-tickets/suri-to-kolkata
+25,WBTC (CTC),Kolkata to Digha,https://www.redbus.in/bus-tickets/kolkata-to-digha
+26,WBTC (CTC),Bolpur (West Bengal) to Kolkata,https://www.redbus.in/bus-tickets/bolpur-west-bengal-to-kolkata
+27,WBTC (CTC),Kolkata to Suri,https://www.redbus.in/bus-tickets/kolkata-to-suri
+28,WBTC (CTC),Digha to Kolkata,https://www.redbus.in/bus-tickets/digha-to-kolkata
+29,WBTC (CTC),Kolkata to Durgapur (West Bengal),https://www.redbus.in/bus-tickets/kolkata-to-durgapur
+30,WBTC (CTC),Habra to Digha,https://www.redbus.in/bus-tickets/habra-to-digha
+31,WBTC (CTC),Kolkata to Asansol (West Bengal),https://www.redbus.in/bus-tickets/kolkata-to-asansol
+32,WBTC (CTC),Barasat (West Bengal) to Debra,https://www.redbus.in/bus-tickets/barasat-west-bengal-to-debra
+33,WBTC (CTC),Barasat (West Bengal) to Asansol (West Bengal),https://www.redbus.in/bus-tickets/barasat-west-bengal-to-asansol
+34,WBTC (CTC),Kolkata to Bakkhali,https://www.redbus.in/bus-tickets/kolkata-to-bakkhali
+35,WBTC (CTC),Barasat (West Bengal) to Nimtouri,https://www.redbus.in/bus-tickets/barasat-west-bengal-to-nimtouri
+36,WBTC (CTC),Habra to Kolaghat,https://www.redbus.in/bus-tickets/habra-to-kolaghat
+37,WBTC (CTC),Habra to Durgapur (West Bengal),https://www.redbus.in/bus-tickets/habra-to-durgapur
+38,WBTC (CTC),Barasat (West Bengal) to Mechogram,https://www.redbus.in/bus-tickets/barasat-west-bengal-to-mechogram
+39,WBTC (CTC),Habra to Haldia,https://www.redbus.in/bus-tickets/habra-to-haldia
+40,WBTC (CTC),Habra to Contai (Kanthi),https://www.redbus.in/bus-tickets/habra-to-contai-kanthi
+42,South Bengal State Transport Corporation (SBSTC),Burdwan to Kolkata,https://www.redbus.in/bus-tickets/burdwan-to-kolkata
+43,South Bengal State Transport Corporation (SBSTC),Kolkata to Burdwan,https://www.redbus.in/bus-tickets/kolkata-to-burdwan
+44,South Bengal State Transport Corporation (SBSTC),Durgapur (West Bengal) to Kolkata,https://www.redbus.in/bus-tickets/durgapur-to-kolkata
+45,South Bengal State Transport Corporation (SBSTC),Kolkata to Haldia,https://www.redbus.in/bus-tickets/kolkata-to-haldia
+46,South Bengal State Transport Corporation (SBSTC),Haldia to Kolkata,https://www.redbus.in/bus-tickets/haldia-to-kolkata
+47,South Bengal State Transport Corporation (SBSTC),Kolkata to Durgapur (West Bengal),https://www.redbus.in/bus-tickets/kolkata-to-durgapur
+48,South Bengal State Transport Corporation (SBSTC),Kolkata to Arambagh (West Bengal),https://www.redbus.in/bus-tickets/kolkata-to-arambagh-west-bengal
+49,South Bengal State Transport Corporation (SBSTC),Digha to Kolkata,https://www.redbus.in/bus-tickets/digha-to-kolkata
+50,South Bengal State Transport Corporation (SBSTC),Kolkata to Digha,https://www.redbus.in/bus-tickets/kolkata-to-digha
+51,South Bengal State Transport Corporation (SBSTC),Kolkata to Bankura,https://www.redbus.in/bus-tickets/kolkata-to-bankura
+52,South Bengal State Transport Corporation (SBSTC),Kolkata to Kirnahar (West Bengal),https://www.redbus.in/bus-tickets/kolkata-to-kirnahar-west-bengal
+53,South Bengal State Transport Corporation (SBSTC),Durgapur (West Bengal) to Bankura,https://www.redbus.in/bus-tickets/durgapur-to-bankura
+54,South Bengal State Transport Corporation (SBSTC),Siliguri to Malda,https://www.redbus.in/bus-tickets/siliguri-to-malda
+55,South Bengal State Transport Corporation (SBSTC),Kolkata to Suri,https://www.redbus.in/bus-tickets/kolkata-to-suri
+56,South Bengal State Transport Corporation (SBSTC),Purulia to Durgapur (West Bengal),https://www.redbus.in/bus-tickets/purulia-to-durgapur
+57,PEPSU (Punjab),Patiala to Delhi,https://www.redbus.in/bus-tickets/patiala-to-delhi
+58,PEPSU (Punjab),Delhi to Patiala,https://www.redbus.in/bus-tickets/delhi-to-patiala
+59,PEPSU (Punjab),Ludhiana to Delhi,https://www.redbus.in/bus-tickets/ludhiana-to-delhi
+60,PEPSU (Punjab),Delhi to Ludhiana,https://www.redbus.in/bus-tickets/delhi-to-ludhiana
+61,PEPSU (Punjab),Phagwara to Delhi,https://www.redbus.in/bus-tickets/phagwara-to-delhi
+62,PEPSU (Punjab),Jalandhar to Delhi,https://www.redbus.in/bus-tickets/jalandhar-to-delhi
+63,PEPSU (Punjab),Delhi to Jalandhar,https://www.redbus.in/bus-tickets/delhi-to-jalandhar
+64,PEPSU (Punjab),Patiala to Delhi Airport,https://www.redbus.in/bus-tickets/patiala-to-delhi-airport
+65,PEPSU (Punjab),Jalandhar to Delhi Airport,https://www.redbus.in/bus-tickets/jalandhar-to-delhi-airport
+66,PEPSU (Punjab),Ludhiana to Delhi Airport,https://www.redbus.in/bus-tickets/ludhiana-to-delhi-airport
+67,PEPSU (Punjab),Chandigarh to Faridkot,https://www.redbus.in/bus-tickets/chandigarh-to-faridkot
+68,PEPSU (Punjab),Chandigarh to Patiala,https://www.redbus.in/bus-tickets/chandigarh-to-patiala
+69,PEPSU (Punjab),Patiala to Delhi,https://www.redbus.in/bus-tickets/patiala-to-delhi
+70,PEPSU (Punjab),Delhi to Patiala,https://www.redbus.in/bus-tickets/delhi-to-patiala
+71,PEPSU (Punjab),Ludhiana to Delhi,https://www.redbus.in/bus-tickets/ludhiana-to-delhi
+72,PEPSU (Punjab),Delhi to Ludhiana,https://www.redbus.in/bus-tickets/delhi-to-ludhiana
+73,PEPSU (Punjab),Phagwara to Delhi,https://www.redbus.in/bus-tickets/phagwara-to-delhi
+74,PEPSU (Punjab),Jalandhar to Delhi,https://www.redbus.in/bus-tickets/jalandhar-to-delhi
+75,PEPSU (Punjab),Delhi to Jalandhar,https://www.redbus.in/bus-tickets/delhi-to-jalandhar
+76,PEPSU (Punjab),Patiala to Delhi Airport,https://www.redbus.in/bus-tickets/patiala-to-delhi-airport
+77,PEPSU (Punjab),Jalandhar to Delhi Airport,https://www.redbus.in/bus-tickets/jalandhar-to-delhi-airport
+78,PEPSU (Punjab),Ludhiana to Delhi Airport,https://www.redbus.in/bus-tickets/ludhiana-to-delhi-airport
+79,PEPSU (Punjab),Phagwara to Delhi Airport,https://www.redbus.in/bus-tickets/phagwara-to-delhi-airport
+80,PEPSU (Punjab),Delhi Airport to Ludhiana,https://www.redbus.in/bus-tickets/delhi-airport-to-ludhiana
+81,PEPSU (Punjab),Delhi to Phagwara,https://www.redbus.in/bus-tickets/delhi-to-phagwara
+82,PEPSU (Punjab),Delhi to Amritsar,https://www.redbus.in/bus-tickets/delhi-to-amritsar
+83,PEPSU (Punjab),Amritsar to Delhi,https://www.redbus.in/bus-tickets/amritsar-to-delhi
+84,PEPSU (Punjab),Delhi Airport to Patiala,https://www.redbus.in/bus-tickets/delhi-airport-to-patiala
+85,PEPSU (Punjab),Amritsar to Delhi Airport,https://www.redbus.in/bus-tickets/amritsar-to-delhi-airport
+86,PEPSU (Punjab),Kapurthala to Delhi,https://www.redbus.in/bus-tickets/kapurthala-to-delhi
+87,PEPSU (Punjab),Delhi Airport to Jalandhar,https://www.redbus.in/bus-tickets/delhi-airport-to-jalandhar
+88,PEPSU (Punjab),Chandigarh to Bathinda,https://www.redbus.in/bus-tickets/chandigarh-to-bathinda
+89,PEPSU (Punjab),Chandigarh to Faridkot,https://www.redbus.in/bus-tickets/chandigarh-to-faridkot
+90,PEPSU (Punjab),Chandigarh to Patiala,https://www.redbus.in/bus-tickets/chandigarh-to-patiala
+91,RSRTC,Jodhpur to Ajmer,https://www.redbus.in/bus-tickets/jodhpur-to-ajmer
+92,RSRTC,Beawar (Rajasthan) to Jaipur (Rajasthan),https://www.redbus.in/bus-tickets/beawer-to-jaipur
+93,RSRTC,Udaipur to Jodhpur,https://www.redbus.in/bus-tickets/udaipur-to-jodhpur
+94,RSRTC,Jaipur (Rajasthan) to Jodhpur,https://www.redbus.in/bus-tickets/jaipur-to-jodhpur
+95,RSRTC,Sikar to Jaipur (Rajasthan),https://www.redbus.in/bus-tickets/sikar-to-jaipur
+96,RSRTC,Kishangarh to Jaipur (Rajasthan),https://www.redbus.in/bus-tickets/kishangarh-to-jaipur
+97,RSRTC,Aligarh (uttar pradesh) to Jaipur (Rajasthan),https://www.redbus.in/bus-tickets/aligarh-uttar-pradesh-to-jaipur
+98,RSRTC,Jodhpur to Beawar (Rajasthan),https://www.redbus.in/bus-tickets/jodhpur-to-beawer
+99,RSRTC,Kota(Rajasthan) to Jaipur (Rajasthan),https://www.redbus.in/bus-tickets/kota-rajasthan-to-jaipur
+100,RSRTC,Jaipur (Rajasthan) to Aligarh (uttar pradesh),https://www.redbus.in/bus-tickets/jaipur-to-aligarh-uttar-pradesh
+101,RSRTC,Jaipur (Rajasthan) to Kota(Rajasthan),https://www.redbus.in/bus-tickets/jaipur-to-kota-rajasthan
+102,RSRTC,Pali (Rajasthan) to Udaipur,https://www.redbus.in/bus-tickets/pali-to-udaipur
+103,RSRTC,Udaipur to Pali (Rajasthan),https://www.redbus.in/bus-tickets/udaipur-to-pali-rajasthan
+104,RSRTC,Sikar to Bikaner,https://www.redbus.in/bus-tickets/sikar-to-bikaner
+105,RSRTC,Jaipur (Rajasthan) to Bharatpur,https://www.redbus.in/bus-tickets/jaipur-to-bharatpur
+106,RSRTC,Kishangarh to Jodhpur,https://www.redbus.in/bus-tickets/kishangarh-to-jodhpur
+107,RSRTC,Jaipur (Rajasthan) to Bhilwara,https://www.redbus.in/bus-tickets/jaipur-to-bhilwara
+108,RSRTC,Kota(Rajasthan) to Udaipur,https://www.redbus.in/bus-tickets/kota-rajasthan-to-udaipur
+109,RSRTC,Jaipur (Rajasthan) to Pilani,https://www.redbus.in/bus-tickets/jaipur-to-pilani
+110,RSRTC,Jaipur (Rajasthan) to Mathura,https://www.redbus.in/bus-tickets/jaipur-to-mathura
+111,RSRTC,Bikaner to Sikar,https://www.redbus.in/bus-tickets/bikaner-to-sikar
+112,HRTC,Delhi to Shimla,https://www.redbus.in/bus-tickets/delhi-to-shimla
+113,HRTC,Shimla to Delhi,https://www.redbus.in/bus-tickets/shimla-to-delhi
+114,HRTC,Manali to Chandigarh,https://www.redbus.in/bus-tickets/manali-to-chandigarh
+115,HRTC,Chandigarh to Manali,https://www.redbus.in/bus-tickets/chandigarh-to-manali
+116,HRTC,Delhi to Manali,https://www.redbus.in/bus-tickets/delhi-to-manali
+117,HRTC,Hamirpur (Himachal Pradesh) to Chandigarh,https://www.redbus.in/bus-tickets/hamirpur-himachal-pradesh-to-chandigarh
+118,HRTC,Delhi to Hamirpur (Himachal Pradesh),https://www.redbus.in/bus-tickets/delhi-to-hamirpur-himachal-pradesh
+119,HRTC,Delhi to Chandigarh,https://www.redbus.in/bus-tickets/delhi-to-chandigarh
+120,HRTC,Manali to Delhi,https://www.redbus.in/bus-tickets/manali-to-delhi
+121,HRTC,Hamirpur (Himachal Pradesh) to Delhi,https://www.redbus.in/bus-tickets/hamirpur-himachal-pradesh-to-delhi
+122,HRTC,Dalhousie to Delhi,https://www.redbus.in/bus-tickets/dalhousie-to-delhi
+123,HRTC,Solan to Delhi,https://www.redbus.in/bus-tickets/solan-to-delhi
+124,HRTC,Delhi to Palampur,https://www.redbus.in/bus-tickets/delhi-to-palampur
+125,HRTC,Dharamshala (Himachal Pradesh) to Delhi,https://www.redbus.in/bus-tickets/dharamshala-to-delhi
+126,HRTC,Delhi to Solan,https://www.redbus.in/bus-tickets/delhi-to-solan
+127,HRTC,Chandigarh to Reckong Peo (Himachal Pradesh),https://www.redbus.in/bus-tickets/chandigarh-to-reckong-peo-himachal-pradesh
+128,HRTC,Manali to Shimla,https://www.redbus.in/bus-tickets/manali-to-shimla
+129,HRTC,Palampur to Delhi,https://www.redbus.in/bus-tickets/palampur-to-delhi
+130,HRTC,Chandigarh to Kullu,https://www.redbus.in/bus-tickets/chandigarh-to-kullu
+131,HRTC,Kangra to Chandigarh,https://www.redbus.in/bus-tickets/kangra-to-chandigarh
+132,HRTC,Kullu to Chandigarh,https://www.redbus.in/bus-tickets/kullu-to-chandigarh
+133,HRTC,Delhi to Kangra,https://www.redbus.in/bus-tickets/delhi-to-kangra
+134,HRTC,Chamba (Himachal Pradesh) to Delhi,https://www.redbus.in/bus-tickets/chamba-himachal-pradesh-to-delhi
+135,HRTC,Palampur to Chandigarh,https://www.redbus.in/bus-tickets/palampur-to-chandigarh
+136,HRTC,Chandigarh to Shimla,https://www.redbus.in/bus-tickets/chandigarh-to-shimla
+137,HRTC,Chandigarh to Kangra,https://www.redbus.in/bus-tickets/chandigarh-to-kangra
+138,HRTC,Delhi to Nalagarh,https://www.redbus.in/bus-tickets/delhi-to-nalagarh
+139,HRTC,Baddi (Himachal Pradesh) to Delhi,https://www.redbus.in/bus-tickets/baddi-himachal-pradesh-to-delhi
+140,HRTC,Kangra to Delhi,https://www.redbus.in/bus-tickets/kangra-to-delhi
+141,HRTC,Ghumarwin to Delhi,https://www.redbus.in/bus-tickets/ghumarwin-to-delhi
+142,HRTC,Delhi to Sarkaghat,https://www.redbus.in/bus-tickets/delhi-to-sarkaghat
+143,UPSRTC,Bareilly to Delhi,https://www.redbus.in/bus-tickets/bareilly-to-delhi
+144,UPSRTC,Aligarh (uttar pradesh) to Delhi,https://www.redbus.in/bus-tickets/aligarh-uttar-pradesh-to-delhi
+145,UPSRTC,Delhi to Bareilly,https://www.redbus.in/bus-tickets/delhi-to-bareilly
+146,UPSRTC,Delhi to Aligarh (uttar pradesh),https://www.redbus.in/bus-tickets/delhi-to-aligarh-uttar-pradesh
+147,UPSRTC,Farrukhabad (Uttar Pradesh) to Delhi,https://www.redbus.in/bus-tickets/farrukhabad-up-to-delhi
+148,UPSRTC,Badaun to Delhi,https://www.redbus.in/bus-tickets/badaun-to-delhi
+149,UPSRTC,Lucknow to Allahabad,https://www.redbus.in/bus-tickets/lucknow-to-allahabad
+150,UPSRTC,Lucknow to Varanasi,https://www.redbus.in/bus-tickets/lucknow-to-varanasi
+151,UPSRTC,Delhi to Badaun,https://www.redbus.in/bus-tickets/delhi-to-badaun
+152,UPSRTC,Agra to Bareilly,https://www.redbus.in/bus-tickets/agra-to-bareilly
+153,UPSRTC,Varanasi to Lucknow,https://www.redbus.in/bus-tickets/varanasi-to-lucknow
+154,UPSRTC,Bareilly to Haridwar,https://www.redbus.in/bus-tickets/bareilly-to-haridwar
+155,UPSRTC,Delhi to Agra,https://www.redbus.in/bus-tickets/delhi-to-agra
+156,UPSRTC,Delhi to Shahjahanpur (Uttar Pradesh),https://www.redbus.in/bus-tickets/delhi-to-shahjahanpur
+157,UPSRTC,Agra to Delhi,https://www.redbus.in/bus-tickets/agra-to-delhi
+158,UPSRTC,Lucknow to Ballia,https://www.redbus.in/bus-tickets/lucknow-to-ballia
+159,UPSRTC,Bareilly to Dehradun,https://www.redbus.in/bus-tickets/bareilly-to-dehradun
+160,UPSRTC,Allahabad to Azamgarh,https://www.redbus.in/bus-tickets/allahabad-to-azamgarh
+161,UPSRTC,Kanpur (Uttar Pradesh) to Bareilly,https://www.redbus.in/bus-tickets/kanpur-to-bareilly
+162,UPSRTC,Lucknow to Ayodhya,https://www.redbus.in/bus-tickets/lucknow-to-ayodhya
+163,UPSRTC,Aligarh (uttar pradesh) to Lucknow,https://www.redbus.in/bus-tickets/aligarh-to-lucknow
+164,UPSRTC,Aligarh (uttar pradesh) to Agra,https://www.redbus.in/bus-tickets/aligarh-to-agra
+165,UPSRTC,Lucknow to Haridwar,https://www.redbus.in/bus-tickets/lucknow-to-haridwar
+166,UPSRTC,Lucknow to Kanpur (Uttar Pradesh),https://www.redbus.in/bus-tickets/lucknow-to-kanpur
+168,UPSRTC,Delhi to Etah (Uttar Pradesh),https://www.redbus.in/bus-tickets/delhi-to-etah-up
+169,UPSRTC,Delhi to Kotdwar (Uttarakhand),https://www.redbus.in/bus-tickets/delhi-to-kotdwar
+170,UPSRTC,Allahabad to Varanasi,https://www.redbus.in/bus-tickets/allahabad-to-varanasi
+171,UPSRTC,Delhi to Moradabad,https://www.redbus.in/bus-tickets/delhi-to-moradabad
+172,UPSRTC,Varanasi to Allahabad,https://www.redbus.in/bus-tickets/varanasi-to-allahabad
+173,UPSRTC,Lucknow to Jaunpur,https://www.redbus.in/bus-tickets/lucknow-to-jaunpur
+174,UPSRTC,Aligarh (uttar pradesh) to Haridwar,https://www.redbus.in/bus-tickets/aligarh-to-haridwar
+175,UPSRTC,Shahjahanpur (Uttar Pradesh) to Delhi,https://www.redbus.in/bus-tickets/shahjahanpur-to-delhi
+176,UPSRTC,Lucknow to Azamgarh,https://www.redbus.in/bus-tickets/lucknow-to-azamgarh
+177,UPSRTC,Jaunpur to Lucknow,https://www.redbus.in/bus-tickets/jaunpur-to-lucknow
+178,UPSRTC,Kanpur (Uttar Pradesh) to Lucknow,https://www.redbus.in/bus-tickets/kanpur-to-lucknow
+179,UPSRTC,Agra to Haridwar,https://www.redbus.in/bus-tickets/agra-to-haridwar
+180,UPSRTC,Lucknow to Gorakhpur (uttar pradesh),https://www.redbus.in/bus-tickets/lucknow-to-gorakhpur
+181,UPSRTC,Delhi to Haldwani,https://www.redbus.in/bus-tickets/delhi-to-haldwani
+182,Chandigarh Transport Undertaking (CTU),Chandigarh to Delhi,https://www.redbus.in/bus-tickets/chandigarh-to-delhi
+183,Chandigarh Transport Undertaking (CTU),Delhi to Chandigarh,https://www.redbus.in/bus-tickets/delhi-to-chandigarh
+184,Chandigarh Transport Undertaking (CTU),Yamuna Nagar to Chandigarh,https://www.redbus.in/bus-tickets/yamuna-nagar-to-chandigarh
+185,Chandigarh Transport Undertaking (CTU),Chandigarh to Shimla,https://www.redbus.in/bus-tickets/chandigarh-to-shimla
+186,Chandigarh Transport Undertaking (CTU),Chandigarh to Vrindavan,https://www.redbus.in/bus-tickets/chandigarh-to-vrindavan
+187,Chandigarh Transport Undertaking (CTU),Chandigarh to Yamuna Nagar,https://www.redbus.in/bus-tickets/chandigarh-to-yamuna-nagar
+188,Chandigarh Transport Undertaking (CTU),Chandigarh to Sujanpur (himachal pradesh),https://www.redbus.in/bus-tickets/chandigarh-to-sujanpur
+189,Chandigarh Transport Undertaking (CTU),Ludhiana to Chandigarh,https://www.redbus.in/bus-tickets/ludhiana-to-chandigarh
+190,Chandigarh Transport Undertaking (CTU),Hamirpur (Himachal Pradesh) to Chandigarh,https://www.redbus.in/bus-tickets/hamirpur-himachal-pradesh-to-chandigarh
+191,Chandigarh Transport Undertaking (CTU),Vrindavan to Chandigarh,https://www.redbus.in/bus-tickets/vrindavan-to-chandigarh
+192,Chandigarh Transport Undertaking (CTU),Dharamshala (Himachal Pradesh) to Chandigarh,https://www.redbus.in/bus-tickets/dharamshala-to-chandigarh
+193,Chandigarh Transport Undertaking (CTU),Chandigarh to Katra (jammu and kashmir),https://www.redbus.in/bus-tickets/chandigarh-to-katra
+194,Chandigarh Transport Undertaking (CTU),Hisar (Haryana) to Chandigarh,https://www.redbus.in/bus-tickets/hisar-haryana-to-chandigarh
+195,Chandigarh Transport Undertaking (CTU),Rohtak to Chandigarh,https://www.redbus.in/bus-tickets/rohtak-to-chandigarh
+196,Chandigarh Transport Undertaking (CTU),Chandigarh to Una (Himachal Pradesh),https://www.redbus.in/bus-tickets/chandigarh-to-una
+197,Chandigarh Transport Undertaking (CTU),Chandigarh to Jammu (j and k),https://www.redbus.in/bus-tickets/chandigarh-to-jammu
+198,Chandigarh Transport Undertaking (CTU),Chandigarh to Rohtak,https://www.redbus.in/bus-tickets/chandigarh-to-rohtak
+199,Chandigarh Transport Undertaking (CTU),Chandigarh to Manali,https://www.redbus.in/bus-tickets/chandigarh-to-manali
+201,Chandigarh Transport Undertaking (CTU),Jawala Ji to Chandigarh,https://www.redbus.in/bus-tickets/jawala-ji-to-chandigarh
+202,Chandigarh Transport Undertaking (CTU),Agra to Chandigarh,https://www.redbus.in/bus-tickets/agra-to-chandigarh
+203,Chandigarh Transport Undertaking (CTU),Jammu (j and k) to Chandigarh,https://www.redbus.in/bus-tickets/jammu-to-chandigarh
+204,Chandigarh Transport Undertaking (CTU),Chandigarh to Hisar (Haryana),https://www.redbus.in/bus-tickets/chandigarh-to-hisar-haryana
+205,Chandigarh Transport Undertaking (CTU),Chandigarh to Kathgodam,https://www.redbus.in/bus-tickets/chandigarh-to-kathgodam
+206,Chandigarh Transport Undertaking (CTU),Haridwar to Chandigarh,https://www.redbus.in/bus-tickets/haridwar-to-chandigarh
+207,Chandigarh Transport Undertaking (CTU),Katra (jammu and kashmir) to Chandigarh,https://www.redbus.in/bus-tickets/katra-to-chandigarh
+208,Chandigarh Transport Undertaking (CTU),Baijnath to Chandigarh,https://www.redbus.in/bus-tickets/baijnath-to-chandigarh
+209,Chandigarh Transport Undertaking (CTU),Narnaul to Chandigarh,https://www.redbus.in/bus-tickets/narnaul-to-chandigarh
+210,Chandigarh Transport Undertaking (CTU),Chandigarh to Jawala Ji,https://www.redbus.in/bus-tickets/chandigarh-to-jawala-ji
+211,KSRTC (Kerala),Bangalore to Kozhikode,https://www.redbus.in/bus-tickets/bangalore-to-kozhikode
+212,KSRTC (Kerala),Kozhikode to Ernakulam,https://www.redbus.in/bus-tickets/kozhikode-to-ernakulam
+213,KSRTC (Kerala),Kozhikode to Bangalore,https://www.redbus.in/bus-tickets/kozhikode-to-bangalore
+214,KSRTC (Kerala),Ernakulam to Kozhikode,https://www.redbus.in/bus-tickets/ernakulam-to-kozhikode
+215,KSRTC (Kerala),Kozhikode to Mysore,https://www.redbus.in/bus-tickets/kozhikode-to-mysore
+216,KSRTC (Kerala),Kozhikode to Thiruvananthapuram,https://www.redbus.in/bus-tickets/kozhikode-to-thiruvananthapuram
+217,KSRTC (Kerala),Bangalore to Kalpetta (kerala),https://www.redbus.in/bus-tickets/bangalore-to-kalpetta
+218,KSRTC (Kerala),Mysore to Kozhikode,https://www.redbus.in/bus-tickets/mysore-to-kozhikode
+219,KSRTC (Kerala),Kalpetta (kerala) to Bangalore,https://www.redbus.in/bus-tickets/kalpetta-to-bangalore
+220,KSRTC (Kerala),Kozhikode to Thrissur,https://www.redbus.in/bus-tickets/kozhikode-to-thrissur
+221,KSRTC (Kerala),Thiruvananthapuram to Kozhikode,https://www.redbus.in/bus-tickets/thiruvananthapuram-to-kozhikode
+222,KSRTC (Kerala),Bangalore to Kannur,https://www.redbus.in/bus-tickets/bangalore-to-kannur
+223,KSRTC (Kerala),Kozhikode to Kottayam,https://www.redbus.in/bus-tickets/kozhikode-to-kottayam
+224,KSRTC (Kerala),Kannur to Bangalore,https://www.redbus.in/bus-tickets/kannur-to-bangalore
+225,KSRTC (Kerala),Kottayam to Kozhikode,https://www.redbus.in/bus-tickets/kottayam-to-kozhikode
+226,KSRTC (Kerala),Thrissur to Kozhikode,https://www.redbus.in/bus-tickets/thrissur-to-kozhikode
+227,KSRTC (Kerala),Kozhikode to Kalpetta (kerala),https://www.redbus.in/bus-tickets/kozhikode-to-kalpetta
+228,KSRTC (Kerala),Coimbatore to Ooty,https://www.redbus.in/bus-tickets/coimbatore-to-ooty
+229,KSRTC (Kerala),Kalpetta (kerala) to Kozhikode,https://www.redbus.in/bus-tickets/kalpetta-to-kozhikode

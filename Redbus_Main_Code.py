@@ -10,6 +10,8 @@ import time
 import mysql.connector as sconn
 from mysql.connector import Error
 
+#------------------------------------------------------------------------selenium webscraping---------------------------------------------------------------------------------------#
+
 def open_url(url):
     # this function will open the redbus website
     try:
@@ -89,7 +91,7 @@ def route_name_ref(driver,state_links,state_name):
     try:
         # calling the website using the link
         for link in state_links:
-            if count >=1: #change to 15 after testing , to fetch all the route data remove (if condition)
+            if count >=11: #change to 11 after testing , to fetch all the route data remove (if condition)
                 break
 
             driver.get(link)
@@ -98,22 +100,23 @@ def route_name_ref(driver,state_links,state_name):
             page_no=driver.find_elements(By.XPATH,"//div[@class='DC_117_paginationTable']/div")
             print(f'{link} - page count - {len(page_no)}')
 
-            # scraping the 1st page route_name and route_link
-            try:
-                route=driver.find_elements(By.XPATH,"//div[@class='route_link']/div/a")
-                for j in route:
-                    route_l=j.get_attribute('href')
-                    route_link.append(route_l)
-                    route_nl=(route_no,state_name[state_index],j.get_attribute('title'),j.get_attribute('href'))
-                    route_name_link.append(route_nl)
-                    route_no +=1
-            except Exception as e:
-                pass
+            if len(page_no)!=0 and count<11: #change to 11 after testing , to fetch all the route data remove (and count<3)
+                try:
+                    # scraping the 1st page route_name and route_link
+                    route=driver.find_elements(By.XPATH,"//div[@class='route_link']/div/a")
+                    for j in route:
+                        route_l=j.get_attribute('href')
+                        route_link.append(route_l)
+                        route_nl=(route_no,state_name[state_index],j.get_attribute('title'),j.get_attribute('href'))
+                        route_name_link.append(route_nl)
+                        route_num.append(route_no)
+                        route_no +=1
+                except Exception as e:
+                    pass
 
-            # scraping other pages data
-            if len(page_no)!=0 and count<1: #change to 15 after testing , to fetch all the route data remove (and count<3)
                 no=0
                 page_number=0
+                # scraping other pages data
                 while no < len(page_no):
                     try:
                         pagination_container=wait.until(EC.presence_of_element_located((By.XPATH,"//div[@id='root']/div/div[4]/div[12]")))
@@ -139,6 +142,7 @@ def route_name_ref(driver,state_links,state_name):
                 count += 1
             state_index += 1
         print(f"Route names and links fetched: {len(route_name_link)}", "length of route link:",len(route_link))
+        print("total route_no",route_num)
     except Exception as e:
         print("Error occured when scraping bus route and link:",e)
     
@@ -149,7 +153,7 @@ def fetch_bus_datas(driver,route_link,no_route):
     wait = WebDriverWait(driver, 10)
     bus_datas=[]
     reference=0
-    bus_no=1
+    bus_no=0
     while reference<len(route_link):
         driver.get(route_link[reference])
         print(f"Fetching data from route: {route_link[reference]}")
@@ -206,12 +210,13 @@ def fetch_bus_datas(driver,route_link,no_route):
                 total_seat_availability=bus_l.find_element(By.CSS_SELECTOR,".seat-left").text
                 seat_availability=total_seat_availability.split()[0]
 
-                bus_datas.append((no_route[reference],bus_name.text,bus_type.text,departing_time.text,duration.text,reaching_time.text,star_rating.text,price.text,seat_availability))
-
-            except:
+                bus_datas.append((no_route[bus_no],bus_name.text,bus_type.text,departing_time.text,duration.text,reaching_time.text,star_rating.text,price.text,seat_availability))
+                
+            except Exception as e:
                 continue
 
-        bus_no += 1
+        print("bus_no",bus_no,"==","route_no",no_route[bus_no])
+        bus_no += 1  
 
         reference += 1
         print(f"Total bus data entries fetched: {len(bus_datas)}")
@@ -240,18 +245,36 @@ bus_details=fetch_bus_datas(driver,route_ref,route_number) #calls the fetch_bus_
 
 quit_driver(driver) #quitting the driver after fetching the data
 
+# --------------------------------------------------------------------------database----------------------------------------------------------------------------------------------#
 
-# convert the bus_details into dataframe and the write the data in .csv file for reference
+# convert the bus_details into dataframe 
 bus_data=pd.DataFrame(data=bus_details,columns=['bus_no','bus_name','bus_type','departing_time','duration','reaching_time','star_rating','price','seat_availability'])
 bus_data['star_rating'] = bus_data['star_rating'].fillna(0)
-print(bus_data.to_string())
-bus_data.to_csv('bus_data.csv',index=False,mode='w')
-print(bus_data)
 
-# convert the route_details into dataframe and write the data in .csv file for reference
-route_data=pd.DataFrame(data=name_link_state,columns=['route_no','state_name','route_name','route_ref'])
-print(route_data.to_string())
-route_data.to_csv('route_data.csv',index=False,mode='w')
+
+# convert the route_details into dataframe 
+normal_route_data=pd.DataFrame(data=name_link_state,columns=['route_no','state_name','route_name','route_ref'])
+print("length of route_data",len(normal_route_data))
+
+#check whether the bus_no and route_no is same
+unique_bus_no = bus_data['bus_no'].unique()
+route_data= normal_route_data[normal_route_data['route_no'].isin(unique_bus_no)]
+
+
+# write the route_data and bus_data in .csv file for reference
+route_data.to_csv('route_data10.csv',index=False,mode='w')
+bus_data.to_csv('bus_data10.csv',index=False,mode='w')
+
+
+#check both bus_no from bus_data and route_no from route_data is same (--------------testing------------)
+unique_bus_no = bus_data['bus_no'].unique()
+unique_route_no = route_data['route_no'].unique()
+
+if set(unique_bus_no) == set(unique_route_no):
+    print("The unique bus numbers and route numbers match.")
+else:
+    print("The unique bus numbers and route numbers do not match.")
+
 
 def configuration():
     # configure the sql connector 
@@ -313,23 +336,24 @@ def insert_data_to_table(conn,query_insert,value):
         print("data inserted into the table successfully")
     except Error as e:
         print("Error occurred when inserting the data into the table",e)
-
-#this function will close the connection 
+ 
 def close_connection(conn):
+    #this function will close the connection
     try:
         conn.close()
         print("connection closed successfully")
     except Error as e:
         print('Error occurred when closing the connection: ',e)    
 
+# create connection ------------------------------------------------------------------------------
 conn=connection()
 
-# if the table already exists drop it to avoid the append of datas
+# if the table already exists drop it to avoid the append of datas --------------------------------
 drop_table(conn,"drop table if exists bus_data")
 drop_table(conn,"drop table if exists route_data")
 
 
-#creating table route_data and bus_data
+#creating table route_data and bus_data ----------------------------------------------------------
 query_route_data_table="""create table if not exists route_data (
 route_no int primary key,
 state_name varchar(100),
@@ -347,31 +371,29 @@ duration varchar(100),
 reaching_time time,
 star_rating float,
 price decimal,
-seat_available int,
-foreign key(bus_no) references route_data(route_no)
-)"""
+seat_available int
+);"""
 
 create_table(conn,query_route_data_table)
 create_table(conn,query_bus_data_table)
 
-# inserting data in route_data and bus_data table
+# inserting data in route_data -------------------------------------------------------------------
 query_insert_route_data="""insert into route_data (route_no,state_name,route_name,route_link) values (%s,%s,%s,%s)
 on duplicate key update route_no = values(route_no), state_name = values(state_name),
 route_name = values(route_name), route_link =values(route_link)
 """
 
+route_data_tuples = [tuple(i) for i in route_data.to_numpy()]
+insert_data_to_table(conn,query_insert_route_data,route_data_tuples) #insert route_data into the table
+
+# inserting data in bus_data table------------------------------------------------------------------
 query_insert_bus_data="""insert into bus_data (bus_no,bus_name,bus_type,departing_time,duration,reaching_time,star_rating,price,seat_available) values (%s,%s,%s,%s,%s,%s,%s,%s,%s)
 on duplicate key update bus_no = values(bus_no), bus_name = values(bus_name), bus_type = values(bus_type), departing_time = values(departing_time), duration = values(duration),
 reaching_time = values(reaching_time), star_rating = values(star_rating), price = values(price), seat_available = values(seat_available)
 """
 
-route_data_tuples = [tuple(i) for i in route_data.to_numpy()]
-print(route_data_tuples)
 bus_data_tuples = [tuple(j) for j in bus_data.to_numpy()]
-print("\n",bus_data_tuples)
-
-insert_data_to_table(conn,query_insert_route_data,route_data_tuples) #insert route_data into the table
 insert_data_to_table(conn,query_insert_bus_data,bus_data_tuples) #insert bus_data into the table
 
-# close connection
+# close connection --------------------------------------------------------------------------------
 close_connection(conn)

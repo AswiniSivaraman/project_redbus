@@ -5,6 +5,7 @@ import time
 import mysql.connector as sconn
 from mysql.connector import Error
 import pandas as pd
+import numpy as np
 
 def timedelta_to_hhmm(value):
     #this function will convert the timedelta format into HH:MM
@@ -99,7 +100,7 @@ def fetch_filtered_value(conn,query_filtered_value):
         if "reaching_time" in df.columns:
             df["reaching_time"] = df["reaching_time"].apply(timedelta_to_hhmm) #change the format of the delta format to HH:MM format
         if "star_rating" in df.columns:
-            df["star_rating"] = df["star_rating"].apply(lambda rating: "NA" if rating==0.0 else rating) #if star rating is not given change it as NA
+            df['star_rating'] = df['star_rating'].replace(0.0, np.nan) #if star rating is not given change it as NA
         return df
     except Error as e: 
         print("Error occurred when fetching filtered value",e)
@@ -285,7 +286,22 @@ if selected=="Search Bus":
         s_time=st.slider("Starting Time", min_value=0, max_value=24, value=(0, 24), step=1)
         start_time , end_time = s_time
 
-    if st.button("Search"):
+    st.markdown("""
+    <style>
+        .stButton > button {
+            background-color: #E6E6FA;
+            color: #EE4B2B; 
+            border: none; 
+            padding: 10px 600px;
+            text-align: center;
+            display: inline-block;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+    </style>
+    """, unsafe_allow_html=True)
+    if st.button("SEARCH"):
         query_fetch_filter_data=f"""select 
             r.route_name, 
             r.route_link, 
@@ -319,12 +335,13 @@ if selected=="Search Bus":
         #check if the filtered data is empty or not
         if not filtered_data.empty:
             st.dataframe(data=filtered_data)
-
         else:
-            st.write(""" 
-            **Sorry🫠 No bus is available for the selected filtering options**
-            """)
+            st.markdown("""
+            <div style="text-align: center;">
+                <h4>**Sorry🫠 No bus is available for the selected filtering options**</h4>
+            </div>
+            """, unsafe_allow_html=True)
 
 
-### close connection
-# close_connection(conn)
+## close connection
+close_connection(conn)
