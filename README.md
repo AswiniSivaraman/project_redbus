@@ -19,9 +19,9 @@ To know more about **selenium**. Click here <https://selenium-python.readthedocs
 
 - **Streamlit:**
 
-  `                `Streamlit turns data scripts into shareable web apps in minutes. All in pure Python. No front‑end experience required.
+  `              `Streamlit turns data scripts into shareable web apps in minutes. All in pure Python. No front‑end experience required.
 
-  `                `To know more about **Streamlit**. Click here <https://docs.streamlit.io/>
+  `              `To know more about **Streamlit**. Click here <https://docs.streamlit.io/>
 
 - **Pandas:**
 
@@ -29,7 +29,7 @@ To know more about **selenium**. Click here <https://selenium-python.readthedocs
 
   `            `Pandas consist of data structures and functions to perform efficient operations on data.
 
-  `            `To know more about **Pandas.** Click here [https://pandas.pydata.org/docs/                                ](https://pandas.pydata.org/docs/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20) 
+  `            `To know more about **Pandas.** Click here [https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20) 
 
 - **MySQL:**
 
@@ -37,15 +37,12 @@ To know more about **selenium**. Click here <https://selenium-python.readthedocs
 
   `              `Oracle Corporation. 
 
-  `               `To know more about **MySQL**. Click here <https://dev.mysql.com/doc/refman/9.0/en/>
+  `              `To know more about **MySQL**. Click here <https://dev.mysql.com/doc/refman/9.0/en/>
 
 - **Streamlit-Option-Menu:**
-  **
-  `                                         `Streamlit-option-menu is a simple Streamlit component that allows users to select a single item from a
+  `              `Streamlit-option-menu is a simple Streamlit component that allows users to select a single item from alist of options in a menu.
 
-  `                                         `list of options in a menu.
-
-  `                                         `To know more about Streamlit-Option-Menu. Click here [https://discuss.streamlit.io/t/streamlit-option-                                             menu-is-a-simple-streamlit-component-that-allows-users-to-select-a-single-item-from-a-list-of-options-in-a-menu/20514](https://discuss.streamlit.io/t/streamlit-option-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20menu-is-a-simple-streamlit-component-that-allows-users-to-select-a-single-item-from-a-list-of-options-in-a-menu/20514)
+  `              `To know more about Streamlit-Option-Menu. Click here [https://discuss.streamlit.io/t/streamlit-option-menu-is-a-simple-streamlit-component-that-allows-users-to-select-a-single-item-from-a-list-of-options-in-a-menu/20514](https://discuss.streamlit.io/t/streamlit-option-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20menu-is-a-simple-streamlit-component-that-allows-users-to-select-a-single-item-from-a-list-of-options-in-a-menu/20514)
 
 **Install Packages:**
 
