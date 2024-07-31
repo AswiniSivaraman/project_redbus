@@ -55,10 +55,11 @@ To know more about **selenium**. Click here <https://selenium-python.readthedocs
 
 **Code Flow Plan:**
 
-This project contains two files
+This project contains three files
 
 1) Redbus\_Main\_Code.py
 1) Webapplication\_Redbus.py
+1) styles.css
 
 **1) Redbus\_Main\_Code.py**
 
@@ -94,6 +95,8 @@ This project contains two files
 Initially run the “Redbus\_Main\_Code.py” using command “**python Redbus\_Main\_Code.py**” in terminal. Wait until it completely scraping the 10 bus routes data.
 
 After finishing the scraping process run “Webapplication\_Redbus.py” using command “**streamlit run Webapplication\_Redbus.py**”
+
+
 
 
 
